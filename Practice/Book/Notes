@@ -1,0 +1,74 @@
+MACHINE LEARNING
+
+Machine learning is the science of programming computers so they can learn from data
+
+USE OF MACHINE LEARNING
+
+Machine learning is great for:
+    - Problems for which existing solutions require a lot of hand-tuning or long lists of rules
+    - Complex problems for which there is no good solution at all using a traditional approach
+    - Fluctuating environments
+    - Getting insights about complex problems and large amount of data
+
+TYPES OF MACHINE LEARNING SYSTEMS
+    - supervised, unsupervised, semisupervised, Reinforcement Learning
+    - online versus batch learning
+    - instance-based versus model-based learning
+
+SUPERVISED LEARNING
+    In supervised Learning, the training data you feed to the algorithm includes the desired solutions, called Labels
+    Common tasks : 
+        - Classification
+        - Regression
+    
+    Most important supervised learning algorithms:
+        - K-nearest neighbors
+        - Linear Regression
+        - Logistic Regression
+        - Support Vector Machines (SVMs)
+        - Decision Trees and Random Forests
+        - Neural networks
+    
+UNSUPERVISED LEARNING
+
+    Clustering:
+        K-Means
+        Hierarchical Cluster Analysis
+        Expectation Maximisation
+    Visualization and dimensionality reduction
+        Principal Component Analysis (PCA)
+        Kernel PCA
+        Locally-Linear Embedding (LLE)
+        t-distributed Stochastic neighbor Embedding (t-SNE)
+    Association rule Learning
+        Apriori
+        Eclat
+    
+BATCH LEARNING
+    In batch Learning, the system is incapable of learning inscrementally: it must be train using all the available data
+
+ONLINE LEARNING
+    In online learning, you train the system inscrementally by feedsing it data instances sequentially. either individually or by small groups called mini-batches
+    Can also be used to train systems on huge datasets that cannot fit in one machine's main memory (this is called out-of-core learning)
+INSTANCE BASED LEARNING
+    The system learns the examples by heart, then generalizes to new cases using a similarity measure
+
+MODEL BASED LEARNING
+    Build a model of these examples, then use that model to make predictions
+
+    steps to solve a model-based project:
+        - study the data
+        - select a model
+        - train the model on the training data
+        - apply the model to make predictions on new cases (inference)
+
+MAIN CHALLENGES OF MACHINE LEARNING
+    insufficient Quantity of training data
+    non representative training data
+    Poor quality data
+    Irrelevant features
+    Overfitting Training data
+    underfitting the training data
+    Stepping Back
+
+TESTING AND VALIDATING
