@@ -1,7 +1,7 @@
 import tensorflow
-from tensorflow.keras.layers import Conv2D, Dropout, Dense, Input, Reshape, Activation, BatchNormalization, Flatten
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.models import Model
+from keras.layers import Conv2D, Dropout, Dense, Input, Reshape, Activation, BatchNormalization, Flatten
+from keras.optimizers import Adam
+from keras.models import Model
 import numpy as np
 
 class NN:
