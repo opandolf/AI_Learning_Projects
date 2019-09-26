@@ -44,7 +44,7 @@ class Agent():
                 self.hp = hyperparameters
                 self.memory = deque(maxlen=2000)
 
-        def simulate_one_game(self):
+        def one_game_trial(self):
                 state = self.game.env.reset()
                 for _ in range(self.game.max_steps):
                         action = self.act(state)
@@ -96,7 +96,7 @@ def train(game, hyperparameters, neural_network, agent):
         evals = [agent.evaluate(10)]
         for i in range(hyperparameters.episodes):
                 for _ in range(hyperparameters.iters):
-                        agent.simulate_one_game()
+                        agent.one_game_trial()
                 agent.replay()
                 score = agent.evaluate(10)
                 evals += [score]
