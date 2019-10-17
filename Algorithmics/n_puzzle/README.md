@@ -1,0 +1,2 @@
+# n_puzzle
+heuristic : https://algorithmsinsight.wordpress.com/graph-theory-2/a-star-in-general/implementing-a-star-to-solve-n-puzzle/
