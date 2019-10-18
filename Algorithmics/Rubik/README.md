@@ -5,11 +5,11 @@ To store the cube and simulate rotations, positions and orientations of corners 
 
 usage: rubik.py [-h] [-t] [-g] [-d] [file [file ...]]
 
-positional arguments:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;file
-
-optional arguments:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-h, --help       show this help message and exit
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-t, --timer      print total execution time
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-g, --generator  use integred generator
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-d, --detail     detail solution for humain comprehension
+positional arguments:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;file  
+  
+optional arguments:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-h, --help       show this help message and exit  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-t, --timer      print total execution time  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-g, --generator  use integred generator  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-d, --detail     detail solution for humain comprehension  
