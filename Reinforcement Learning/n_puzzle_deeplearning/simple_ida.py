@@ -1,6 +1,6 @@
 from Npuzzle import Npuzzle
 
-def cleanIda(scrambleList, scrambleSize):
+def cleanADI(scrambleList, scrambleSize):
     states = [tuple(row[0]) for row in scrambleList]
     values = [row[1] for row in scrambleList]
     clean_states = list(set(states))
@@ -16,7 +16,7 @@ def cleanIda(scrambleList, scrambleSize):
     print("b")
     return ret
 
-def getIdaExamples(nbPuzzle, scrambleSize, puzzleSize):
+def getADIExamples(nbPuzzle, scrambleSize, puzzleSize):
     ret = []
     n = Npuzzle(None, puzzleSize)
     for _ in range(nbPuzzle):
