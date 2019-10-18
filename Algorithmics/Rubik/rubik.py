@@ -36,7 +36,6 @@ if __name__ == '__main__':
 	solution = ''
 	count = 0
 	arg_parser = argparse.ArgumentParser()
-	group = arg_parser.add_mutually_exclusive_group()
 
 	arg_parser.add_argument('-t', '--timer', action='store_true', help="print total execution time")
 	arg_parser.add_argument('-g', '--generator', action='store_true', help="use integred generator")
