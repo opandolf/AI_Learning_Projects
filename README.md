@@ -33,7 +33,7 @@ And activate it
 ```
 conda activate <yourenv>
 ```
-For some projects you will need to had matplotlib
+For some projects you will need to add matplotlib
 ```
 conda install matplotlib
 ```
