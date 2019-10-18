@@ -1,7 +1,6 @@
 from Npuzzle import Npuzzle
 from Node import Node
 from simple_ADI import getADIExamples
-from tabulate import tabulate
 from NNWrapper import NNWrapper
 from Astar import Astar
 
