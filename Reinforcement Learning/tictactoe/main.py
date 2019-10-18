@@ -1,6 +1,7 @@
 from training_algorithm import training_algorithm
 from TicTacToe.GameRules import GameRules
 from human_play import human_play
+import argparse
 import sys
 
 if __name__ == "__main__":
@@ -17,16 +18,22 @@ if __name__ == "__main__":
         'human_play' : False
     }
 
-    if "--train" in sys.argv:
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-t', '--train', action='store_true', help="train the neural network")
+    parser.add_argument('-l', '--load', action='store_true', help="load previously trained weights of the neural network")
+    parser.add_argument('-p', '--play', action='store_true', help="allow you to play against the AI. Default if no arguments")
+    argp = parser.parse_args()
+
+    if argp.train:
         args['train'] = True
-    if "--load" in sys.argv:
+    if argp.load:
         args['load_weights'] = True
-    if "--human" in sys.argv or len(sys.argv) == 1:
+    if argp.play or len(sys.argv) == 1:
         args['human_play'] = True
 
     game = GameRules()
 
-    if args['train'] == True:
+    if argp.train == True:
         training_algorithm(game, args)
-    if args['human_play']:
+    if argp.play:
         human_play(game, args)
