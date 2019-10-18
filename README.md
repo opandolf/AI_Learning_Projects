@@ -13,7 +13,7 @@ Algorithmics:
 Supervised Learning:
   + [**Linear Regression**](https://github.com/opandolf/AI_projects/tree/master/Supervised%20Learning/ft_linear_regression) : Linear Regression, Gradient Descent
   + [**Digit Classification**](https://github.com/opandolf/AI_projects/tree/master/Supervised%20Learning/DigitClassification) : Keras, CNN
-  + [**Datascience X Logistic Regression**](https://github.com/opandolf/AI_projects/tree/master/Supervised%20Learning/dslr) : Data exploration, Data visualisation, Multinomial Logistic Regression
+  + [**Datascience X Logistic Regression**](https://github.com/opandolf/AI_projects/tree/master/Supervised%20Learning/dslr) : Data exploration, Data visualization, Multinomial Logistic Regression
 
 Reinforcement Learning:
   + [**Cartpole**](https://github.com/opandolf/AI_projects/tree/master/Reinforcement%20Learning/CartPole) : DQN
