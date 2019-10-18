@@ -14,4 +14,4 @@ Multinomial Logistic Regression Classifier:
   
 # Usage
 
-<filename>.py -h
+filename.py -h
