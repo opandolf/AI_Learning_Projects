@@ -16,3 +16,9 @@ Options:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-u --uniform  Proceed with an Uniform Cost.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-g --greedy   Proceed with a Greedy Search.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-i --iter     Wait for user input to display the solution  
+
+# Requirements
+
+```
+python3 -m pip install docopt
+```
