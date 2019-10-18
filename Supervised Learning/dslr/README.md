@@ -1,4 +1,4 @@
-# dslr
+# Datascience X Logistic Regression
 
 Project where the aim is to do the Hogwart Sorting hat's job, select for a student his house using data about them.
 A training and test dataset is given.  
