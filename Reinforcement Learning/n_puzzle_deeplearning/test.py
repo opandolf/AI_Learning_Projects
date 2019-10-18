@@ -1,11 +1,11 @@
 from Npuzzle import Npuzzle
 from Node import Node
-from simple_ida import getIdaExamples
+from simple_ADI import getADIExamples
 from tabulate import tabulate
 from NNWrapper import NNWrapper
 from Astar import Astar
 
-examples = getIdaExamples(1000,31,3)
+examples = getADIExamples(1000,31,3)
 input_states, target_vs = list(zip(*examples))
 # print(input_states)
 # print(target_vs)
