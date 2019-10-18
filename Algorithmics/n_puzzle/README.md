@@ -3,7 +3,7 @@
 This is my first project in Algoritmics branch of 42 school and my first project in python.  
 It was done with Alexis Leveque https://github.com/AlexisLeveque  
   
-We had to implement the A* search algorithm to solve an N-puzzle with heurstics like Manhattan distance.  
+We had to implement the A* search algorithm to solve an N-puzzle with heuristics like Manhattan distance.  
 https://en.wikipedia.org/wiki/15_puzzle
 
 # Usage
