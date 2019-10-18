@@ -20,3 +20,22 @@ Reinforcement Learning:
   + [**Pendulum**](https://github.com/opandolf/AI_projects/tree/master/Reinforcement%20Learning/Pendulum) : DDPG
   + [**Tictactoe**](https://github.com/opandolf/AI_projects/tree/master/Reinforcement%20Learning/tictactoe) : Alphazero, Policy and Value Head, MCTS
   + [**N_puzzle**](https://github.com/opandolf/AI_projects/tree/master/Reinforcement%20Learning/n_puzzle_deeplearning) : Autodidactic Iteration
+
+# Requirements
+
+For simplicity's sake i used [**Anaconda Distribution**](https://www.anaconda.com/distribution/).
+
+Create an environmnent
+```
+conda create --name <yourenv>
+```
+And activate it
+```
+conda activate <yourenv>
+```
+For some projects you will need to had matplotlib
+```
+conda install matplotlib
+```
+
+It should allow you to run all my projects
