@@ -8,10 +8,10 @@ Our heuristic evaluate position by adding the impact of the stone played to the 
 # Usage
 
 usage: main.py [-h] [-b] [file [file ...]]
-
-positional arguments:
-  file
-
-optional arguments:
-  -h, --help        show this help message and exit
-  -b, --board_size  change the board size
+  
+positional arguments:  
+  file  
+  
+optional arguments:  
+  -h, --help        show this help message and exit  
+  -b, --board_size  change the board size  
