@@ -12,7 +12,7 @@ Usage:
 n_puzzle.py [<puzzle_file>] [-h --help] [-u --uniform] [-g --greedy] [-i --iter]  
   
 Options:  
-  -h --help  
-  -u --uniform  Proceed with an Uniform Cost.  
-  -g --greedy   Proceed with a Greedy Search.  
-  -i --iter     Wait for user input to display the solution  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-h --help  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-u --uniform  Proceed with an Uniform Cost.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-g --greedy   Proceed with a Greedy Search.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-i --iter     Wait for user input to display the solution  
